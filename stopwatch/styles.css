@@ -1,0 +1,21 @@
+input[type="number"] {
+    text-align: center;
+    font-size: 48px; /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la vista */
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100px; /* Ajusta según necesidad */
+    margin: 5px;
+}
