@@ -1,1 +1,6 @@
+@Codebase  Se requiere construir una aplicación de un conometro donde se le pueda especificar el tiempo de horas minutos y segundos con el que va a iniciar para esto debe construir una vista en el archivo @index.html  con el diseño de la imagen@stopwatch.png y utilizando boostrap para estilos, despues de especificar la hora minutos y segundos se debe habilitar el boton start que lo que hacer es iniciar el contador en reversa del cronometro segunado a segundo y descontando este valor de los segundos, minutos y horas hasta llegar a 0 , el boton clear lo que va a permitir es limpiar las horas , minutos y segundos y habiliatra para que se ingrese nuevos valores , estas funciones deben hacerse en javascript en el archivo @script.js , utilice buenas practis de codificación
 
+Ahora incluye validaciones en los campos de horas minutos y segundos para que solo permita ingresar valores validos , maneje formato militar y agregue esta validaciones en el archivo @script.js , tambien quiero que los Numeros esten centralizados en la pantallas y sean más grandes 
+
+
+las validaciones de las horas , minutos y segundos se deben hacer a medida que se ingresa los valores , si se ingresa un valor no valido se debe mostrar un mensaje de error debajo de cada campo , adicional a esto centra los botones de start y clear debajo de las horas, minutos y segundos
